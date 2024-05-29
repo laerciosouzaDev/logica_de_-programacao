@@ -113,6 +113,12 @@ public class calculadora extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         double numeroUm = Double.parseDouble(this.primeiroNumero.getText());
+        double numeroDois = Double.parseDouble(this.segundoNumero.getText());
+        String op = this.Operacao.getSelectedItem().toString();
+        
+        // logica aqui
+        
+        this.resultado.setText("chegou aqui!");
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void OperacaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OperacaoActionPerformed
