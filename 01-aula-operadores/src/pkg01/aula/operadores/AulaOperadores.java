@@ -27,7 +27,7 @@ public class AulaOperadores {
         System.out.println(10 + 10);
         
         //------------------------------------------
-        // operadores logicos
+        // operadores comparação
         
         boolean ehMaior = 10 > 20;
         boolean ehMenor = 10 < 20;
