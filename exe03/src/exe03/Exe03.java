@@ -17,9 +17,12 @@ public class Exe03 {
         
         int anos = leia.nextInt();
         int meses = leia.nextInt();
-        int dias = leai.nextInt();
+        int dias = leia.nextInt();
         
-        int totalDias = (anos*365)
+        int totalDias = (anos*365) + (meses * 30) + dias;
+        
+        System.out.println("idade em dias: " + totalDias);
+        
                 
         
     }
