@@ -30,12 +30,12 @@ switch (codigoErro) {
     case 400:
     case 401:
     case 404:        
-        console.log("codigo de erro app")
+        console.log("http codigo de erro app")
         break;
     case 500:
     case 501:
     case 502:        
-        console.log("codigo de erro servidor")
+        console.log("http codigo de erro servidor")
         break;
     default:
         console.log("não é erro")
