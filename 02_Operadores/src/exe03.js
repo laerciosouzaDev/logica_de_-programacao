@@ -4,7 +4,9 @@ var placa = leia.question("digite o final da placa: ")
 
 var finalPlaca = placa.charAt(placa.length-1)
 
-
+// if(finalPlaca === "0" || finalPlaca === "1"){
+//             CASO FOR NO IF E ELSE
+// }
 
 switch(finalPlaca){
     case "0":
@@ -28,8 +30,11 @@ switch(finalPlaca){
        console.log("Não pode Rodar na sexta-feira")
    break;
    default:
-    console.log("Não se aplica.")
+    console.log("Digite um charactere valido.")
 
    
 }
+
+
+
 
