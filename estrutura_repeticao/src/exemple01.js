@@ -6,7 +6,7 @@ while(estaCarregando){
     console.log(porcentagem + " % Carregando...")
 
     if(porcentagem < 100){
-        porcentagem += 5
+        porcentagem += 10
     }else{
         estaCarregando = false
     }
