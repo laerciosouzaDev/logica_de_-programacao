@@ -1,9 +1,13 @@
 import leia from "readline-sync"
 
-var num = leia.questionInt("digite um numero: ")
+var decimal = leia.questionInt("digite um numero: ")
 
-var result = num / 2
+var bin = ""
 
-while(num %2 === 1){
-    
+while(decimal >= 1){
+    var result = parseInt(decimal / 2)
+    var resto = decimal % 2
+    decimal = result
+    bin = resto + bin
 }
+console.log(bin)
