@@ -1,17 +1,21 @@
 import leia from "readline-sync"
 
 var num = []
+// preenche a primeira lista (num)
 
-
-
+var valor = []
 for(var i = 0; i < 3; i++){
     num[i] = leia.questionInt("digite valor: ")
-    console.log(num)
-
+    // valor [i] = num [i] * 5
 }
-var valor = 0
 
-for(var j = 0; j < num.length; i++){
-    console.log(num[j])
+// manipular as lista
+for(var i = 0; i < num.length; i++){
+    valor [i] = num [i] * 5
 
+//     valor.push(num[i] * 5)
 }
+
+
+
+console.log(num, valor)
