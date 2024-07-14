@@ -17,3 +17,5 @@ export function exercicio01() {
     console.log(v3)
     console.log(vResultado)
 }
+preencherVetor()
+obterItensVetor()
